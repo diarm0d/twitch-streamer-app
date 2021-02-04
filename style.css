@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.main-container {
+    margin-top: 80px;
+}
+
+.profile-image {
+    height: 100px;
+    width: 100px;
+}
