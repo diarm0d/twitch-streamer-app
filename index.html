@@ -8,9 +8,13 @@
     <title>Twitch Streamers</title>
 </head>
 <body>
-    <div class="main-container container justify-content-md-center border rounded shadow-sm p-3 bg-light" id="main-container">
-        <h1 class="align-self-center d-flex justify-content-center">Twitch Streamers</h1>
-        <h3 class="align-self-center d-flex justify-content-center" id="loading">Loading...</h3>
+    <div class="main-container container justify-content-md-center border rounded shadow-sm p-3" id="main-container">
+        <h1 class="align-self-center d-flex justify-content-center text-white">Twitch Streamers</h1>
+        <div class="controls-container container justify-content-md-center" id="controls-container">
+            <button type="button" class="btn btn-success d-inline justify-content-center">Online</button>
+            <button type="button" class="btn btn-danger d-inline justify-content-center">Offline</button>
+        </div>
+        <h3 class="align-self-center d-flex justify-content-center text-white" id="loading">Loading...</h3>
         <div class="twitch-stream-container container justify-content-md-center border rounded bg-white mt-2" id="twitch-stream-container" hidden>
             <div class="row">
                 <div class="col-sm">
